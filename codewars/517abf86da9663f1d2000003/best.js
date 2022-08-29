@@ -4,3 +4,4 @@ function toCamelCase (str) {
     return match.charAt(1).toUpperCase();
   });
 }
+// regExp как всегда))
