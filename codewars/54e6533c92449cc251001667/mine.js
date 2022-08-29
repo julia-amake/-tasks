@@ -4,7 +4,7 @@ var uniqueInOrder = function (iterable) {
   const uniqueArr = [];
   let curr = null;
 
-  iterable.forEach((item, i) => {
+  iterable.forEach(item => {
     if (curr === item) return;
     curr = item;
     uniqueArr.push(item);
