@@ -19,10 +19,8 @@ const getTea = (prepareTea, numOfCups) => {
   return teaCups;
 };
 
-// Only change code below this line
-const tea4GreenTeamFCC = null;
-const tea4BlackTeamFCC = null;
-// Only change code above this line
+const tea4GreenTeamFCC = getTea(prepareGreenTea, 27);
+const tea4BlackTeamFCC = getTea(prepareBlackTea, 13);
 
 console.log(
   tea4GreenTeamFCC,
