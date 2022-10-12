@@ -5,6 +5,6 @@ function ask(question, yes, no) {
 
 ask(
   "Вы согласны?",
-  function() { alert("Вы согласились."); },
-  function() { alert("Вы отменили выполнение."); }
+  () => alert("Вы согласились."),
+  () => alert("Вы отменили выполнение." }
 );
